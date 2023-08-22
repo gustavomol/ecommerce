@@ -3,7 +3,7 @@ import CarWidget from "../CartWidget/CartWidget"
 const NavBar = () => {
     return(
         <nav>
-            <h3>Instrumentos Musicales</h3>
+            <h2>Instrumentos Musicales</h2>
             <div>
                 <button>Guitarras</button>
                 <button>Bajos</button>
