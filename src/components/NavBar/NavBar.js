@@ -6,10 +6,10 @@ const NavBar = () => {
         <nav>
             <h2>Instrumentos Musicales</h2>
             <div>
-                <Button variant="outlined" >Guitarras</Button>
-                <Button variant="outlined" >Bajos</Button>
-                <Button variant="outlined" >Accesorios</Button>
-                <Button variant="outlined" >Contacto</Button>
+                <Button size = "large" variant="outlined" >Guitarras</Button>
+                <Button size = "large" variant="outlined" >Bajos</Button>
+                <Button size = "large" variant="outlined" >Accesorios</Button>
+                <Button size = "large" variant="outlined" >Contacto</Button>
                 <CarWidget />
             </div>
         </nav>
