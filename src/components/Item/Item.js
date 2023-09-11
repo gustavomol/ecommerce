@@ -21,8 +21,7 @@ const Item = ({id, title, image, price, stock}) => {
         </section>
         <footer className="ItemFooter">
 
-            <Button>Ver detalle</Button>
-            <hr/>
+            <Button variant='outlined' >Ver detalle</Button>
         </footer>
     </article>
   )
