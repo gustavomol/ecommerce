@@ -6,8 +6,8 @@
 }
 
 :root {
-    --clr-main: #c56cee;
-    --clr-main-light: #efdaf9;
+    --clr-main: #82d1f0;
+    --clr-main-light: #bddbe7(281, 72%, 92%);
 }
 
 .container {
@@ -44,7 +44,7 @@
 .menu-link {
     text-decoration: none;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .menu-link:hover {
