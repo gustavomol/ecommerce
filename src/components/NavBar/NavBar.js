@@ -1,6 +1,5 @@
 import CarWidget from '../CartWidget/CartWidget'
-import Button from '@mui/material/Button';
-import './NavBar.css'
+
 
 const NavBar = () => {
     return(

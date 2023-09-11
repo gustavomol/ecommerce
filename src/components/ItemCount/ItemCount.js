@@ -1,5 +1,4 @@
 import { Button, Stack } from '@mui/material';
-import './ItemCount.css'
 import { useState } from 'react'
 
 const ItemCount = ({stock, initial, onAdd}) => {
