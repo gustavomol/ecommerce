@@ -6,7 +6,7 @@
 }
 
 :root {
-    --clr-main: #82d1f0;
+    --clr-main: #dde2e7;
     --clr-main-light: #bddbe7(281, 72%, 92%);
 }
 
@@ -55,7 +55,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    padding-block: 2rem;
+    padding-block: 5rem;
+    
 }
 
 .producto {
@@ -67,7 +68,7 @@
 
 .producto > div {
     padding: 1rem;
-    background-color: var(--clr-main-light);
+    background-color: var(--clr-main);
     display: flex;
     flex-direction: column;
     gap: .5rem;
@@ -79,14 +80,16 @@
     object-fit: cover;
 }
 
-.producto .verdetalle {
+.producto .ver-mas {
     text-decoration: none;
-    background-color: var(--clr-main);
+    background-color: rgb(167,13,13);
     color: white;
-    padding: .5rem;
+    padding: .7rem;
     width: max-content;
     border-radius: .5rem;
     transition: .2s;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
 }
 
 .producto .ver-mas:hover {
@@ -99,6 +102,17 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 2rem;
+}
+
+.producto-title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    background-color: var(--clr-main);
+}
+
+.producto-img{
+    margin-bottom: 2rem;
 }
 
 .producto-detalle img {
