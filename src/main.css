@@ -10,6 +10,14 @@
     --clr-main-light: #bddbe7(281, 72%, 92%);
 }
 
+.home-img {
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
 .container {
     max-width: 1140px;
     padding-inline: 1.5rem;

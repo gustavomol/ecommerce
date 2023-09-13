@@ -4,7 +4,7 @@ const Nosotros = () => {
   return (
     <div>
         <br/>
-        <h2>Mi Tienda</h2>
+        <h2>Nosotros</h2>
         <br/>
         <p>
          It is a long established fact that a reader will be distracted
