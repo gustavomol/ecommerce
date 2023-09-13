@@ -44,7 +44,7 @@
 .menu-link {
     text-decoration: none;
     color: black;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 .menu-link:hover {
@@ -93,7 +93,7 @@
 }
 
 .producto .ver-mas:hover {
-    background-color: black;
+    background-color: rgb(173, 155, 155);
     color: white;
 }
 
