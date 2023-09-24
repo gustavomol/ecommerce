@@ -9,3 +9,17 @@ export const getProducts = () => {
         }, 500);
     })
 }
+
+export const getItemById = (id) => {
+    //console.log("getItemById: " + id)
+    return new Promise((resolve, reject) =>  {
+        const item = data.find((el) => el.id === id);
+
+        if(item) {
+            resolve(item)
+        } else {
+
+            reject({error: "Producto no encontrado"})
+        }
+    })
+}
